@@ -93,7 +93,7 @@ This is the most gnarly part, and of course it's also the most relevant if you'r
 
 Once you have a token, stick it in your gitconfig file as follows:
 ```
-[url "https://<user>:<token>@dev.azure.com/<organization>/_git/"]
+[url "https://<user>:<token>@dev.azure.com/<organization>/<project>/_git/"]
     insteadOf = https://dev.azure.com/<organization>/<project>/_git/
 ```
 Any time git tries to access the insteadOf url, it will instead access your replacement. If you had a token with access to multiple projects or organisations, you could shorten these urls to be more general.
