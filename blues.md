@@ -74,7 +74,7 @@ go get dev.azure.com/<organisation>/<project>/_git/<repo>.git # install the top 
 ```
 If you want to install a package from a subfolder, just append the subfolder path to the end:
 ```
-go get dev.azure.com<organisation>/<project>/_git/<repo>.git/<path>/<to>/<package> # install package from subfolder
+go get dev.azure.com/<organisation>/<project>/_git/<repo>.git/<path>/<to>/<package> # install package from subfolder
 ```
 Note the `.git` after the repo name.
 
